@@ -1,0 +1,17 @@
+@mixin flex-property($direction, $justify, $align, $w) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    width: $w;
+}
+
+.part_1 {
+    @include flex-property(row, flex-start, center, 100%);
+    .news_related {
+        @include flex-property(column, flex-start, flex-start, 25%);
+    }
+    .new_header {
+        @include flex-property(column, flex-end, flex-end, 75%);
+    }
+}

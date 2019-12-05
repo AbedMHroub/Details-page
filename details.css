@@ -30,6 +30,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 25%;
+  background-color: #965f28;
 }
 
 .part_1 .new_header {
@@ -47,5 +48,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 75%;
+  background-color: #2f2f30;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=details.css.map */
