@@ -41,7 +41,7 @@ $font-s:40px;
         @include flex-property(column, flex-start, flex-start, 72%);
         .main_img {
             img {
-                width: 1100px;
+                width: 85%;
                 height: 470px;
                 padding: 0px 100px 5px 100px;
             }
@@ -52,4 +52,111 @@ $font-s:40px;
 .part_2 {
     font-size: $font-s - 15;
     margin-right: 130px;
+
+  .news_sharing{
+    direction: ltr;
+    margin-left: 20%;
+    .share-buttons {
+      display:inline-block;
+    a img {
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      border: 0;
+      box-shadow: 0;
+
+
+
+        }
+          }
+
+          .about {
+            display:inline-block;
+          a img {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            border: 0;
+            box-shadow: 0;
+              }
+
+                }
+
+        }
+
+      }
+
+
+.part_3{
+
+  .add_comment {
+    float: right;
+    height:400px;
+    width:49%;
+    border-left: solid 2px #707070;
+    .comment {
+      padding-right: 100px;
+      padding-top: 100px;
+
+      @include flex-property(row, flex-start, flex-start, 100%);
+
+
+      img {
+
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+      }
+    }
+    .add{
+      padding-right: 100px;
+      @include flex-property(row, flex-start, flex-start, 100%);
+
+      input {
+        width: 300px;
+        height: 24px;
+        border-radius: 0 10px 10px 0;
+        border: solid 3px #EBEDED;
+
+      }
+      button {
+        width: 90px;
+        height: 31px;
+        background-color: #EBEDED;
+
+        border: none;
+        border-radius: 10px 0 0 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+      cursor: pointer;
+      }
+
+
+    }
+  }
+  .list_comment {
+    float: left;
+    margin-left: 20px;
+    height:400px;
+    width:48%;
+    
+
+    li {
+      list-style-type: none;
+    }
+
+      img {
+
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+      }
+
+      p {
+        padding-bottom: 15px;
+      }
+  }
+
 }
